@@ -31,7 +31,6 @@ section {
     flex-wrap: wrap;
     gap: 20px;
     text-align: center;
-    border: 1px solid red;
 }
 
 .profile-details img {
