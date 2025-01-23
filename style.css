@@ -109,7 +109,7 @@ footer {
 }
 
 @media (max-width: 400px) {
-    header{
+    .profile-section{
         whidth: 320px;
     }
     .profile-section {
