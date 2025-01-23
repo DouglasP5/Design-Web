@@ -113,6 +113,9 @@ footer {
     .profile-section{
         whidth: 320px;
     }
+    .profile-details img{
+    width: 250px;
+    }
     .profile-section {
         flex-direction: column;
     }
