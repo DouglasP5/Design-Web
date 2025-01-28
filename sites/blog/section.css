@@ -1,12 +1,114 @@
 section{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .comeco{
-    display: flex;
+    
 }
 
 .aspas{
     margin-top: 75px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.titu{
+    width: 787px;
+    position: relative;
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 800;
+    font-family: Inter;
+    color: #273644;
+    text-align: left;
+    display: inline-block;
+}
+
+.auto{
+    background-color: #EFF2F7;
+    width: 720px;
+    margin-left: 120px;
+
+}
+
+.balao{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.tex{
+    width: 720px;
+    margin-left: 120px;
+    position: relative;
+    font-size: 21px;
+    line-height: 160%;
+    font-family: Inter;
+    color: #707c8c;
+    text-align: left;
+    display: inline-block;
+}
+
+.grad{
+    background: linear-gradient(90deg, #eff0f2, rgba(249, 250, 252, 0));
+    margin-left: 120px;
+    width: 30%;
+}
+
+.cont{
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+    font-family: Inter;
+    color: #273644;
+}
+
+.seta{
+    margin-left: 60px;
+}
+
+.gradi{
+    width: 60px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff0000, rgba(255, 0, 0, 0.46));
+    height: 4px;
+    margin-left: 120px;
+    margin-top: 45px;
+}
+
+.cat{
+    width: 787px;
+    font-size: 26px;
+    line-height: 160%;
+    font-weight: 300;
+    font-family: Inter;
+    color: #8d9aa6;
+    margin-left: 120px;
+}
+
+.seco{
+    display: flex;
+    margin-left: 120px;
+}
+
+.sec{
+    border: 1px solid #eb5151;
+    padding: 4px 17px;
+    margin-right: 17px;
+    
+}
+
+.det{
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: 160%;
+    font-weight: 300;
+    font-family: Inter;
+    color: #8d9aa6;
+    text-align: right;
+    margin-right: 20px;
 }
