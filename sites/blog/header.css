@@ -1,76 +1,106 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f9f9f9;
 }
 
-header{
+header {
     width: 100%;
-    position: relative;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-    background-color: #c11616;
     height: 100px;
-    display: flex
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c11616;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-.rectangle-div {
-    width: 50px;
-    background-color: #fff;
-    height: 1px;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    margin-top: 25px;
-    margin-left: 40px;
+.part1{
+padding: 100px;
+display: flex;
+align-items: center;
 }
 
-.rectanglelao-div{
-    width: 250px;
-    background-color: #fff;
-    height: 1px;
-    margin-top: 50px;
-    margin-left: 450px;
-}
-
-.rectanglelinho-div{
-    width: 20px;
-    background-color: #fff;
-    height: 1px;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    margin-top: 36px;
-    margin-left: 20px;
+.part2{
+    display: flex;
+    padding: 0px 100px 0px 0px;
+    align-items: center;
 }
 
 .vector-icon {
-   width: 180px;
-   height: 50px;
-   padding: 25px;
-   margin-left: 180px;
+    width: 180px;
+    height: auto;
 }
 
-.autor{
+.rectangle-div {
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    transform: rotate(90deg);
+    padding: 0px 0px 0px 60px;
+
+}
+
+.rectanglelao-div {
+    width: 250px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.rectanglelinho-div {
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    transform: rotate(90deg);
+}
+
+.autor, .opc, .opc2 {
     color: #fff;
-    margin-top: 40px;
-    margin-left: 20px;
+    font-size: 16px;
 }
 
-.pes-icon{
+.pes-icon {
     height: 20px;
     width: 20px;
-    margin-top: 31px;
-    margin-left: 5px;
+    align-items: center;
+    padding-right: 90px;
+    padding-left: 10px;
 }
 
-.opc{
-    color: #fff;
-    margin-top: 39px;
-    margin-left: 35px;
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .vector-icon {
+        margin: 10px 0;
+        width: 150px;
+    }
+
+    .autor, .opc, .opc2 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .rectangle-div, .rectanglelao-div, .rectanglelinho-div {
+        display: none; 
+    }
 }
 
-.opc2{
-    color: #fff;
-    margin-top: 39px;
-    margin-left: 5px;
+@media (max-width: 480px) {
+    .vector-icon {
+        width: 120px;
+    }
+
+    .autor, .opc, .opc2 {
+        font-size: 12px;
+    }
 }
