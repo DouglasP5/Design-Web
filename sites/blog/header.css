@@ -28,7 +28,7 @@ align-items: center;
 .part2{
     display: flex;
     padding: 0px 100px 0px 0px;
-    align-items: center;
+    
 }
 
 .vector-icon {
@@ -56,6 +56,7 @@ align-items: center;
     height: 1px;
     background-color: #fff;
     transform: rotate(90deg);
+    align-items: center;
 }
 
 .autor, .opc, .opc2 {

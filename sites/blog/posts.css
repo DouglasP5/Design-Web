@@ -1,6 +1,56 @@
+.posts{
+        width: 100%;
+}
+
+.pik{
+    padding: 15px;
+}
+
 .blo{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.bloc{
     width: 280px;
     height: 260px;
     border-radius: 5px;
+    padding: 23px;
+    border: 2px solid #eb5151;
+}
+
+.ver{
+    color: #eb5151;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.contl{
+    color: #be3333;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    text-align: left;
+    height: 125px;
+    width: 245px;
+    padding: 15px;
+}
+
+.linha{
+    padding-top: 15px;
+}
+
+.divis{
     border: 1px solid #eb5151;
+    width: 220px;
+    display: inline-block;
+    position: relative;
+}
+
+.es{
+    color: #eb5151;
+    text-align: center;
+    font-size: small;
 }
