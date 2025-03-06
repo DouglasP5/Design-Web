@@ -13,6 +13,11 @@ body {
     box-sizing: border-box;
 }
 
+.feito{
+    width: 268px;
+    height: 164px;
+}
+
 .layout {
     max-width: 1200px;
     margin: 0 auto;
